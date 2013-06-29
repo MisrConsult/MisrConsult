@@ -1,0 +1,27 @@
+
+ul#nav {
+	width: 100%; margin: 0 auto; text-align: center; overflow: hidden;
+}
+	ul#nav li {
+		float: left; list-style: none; 
+	}
+		ul#nav li a {
+			background: url("../../misr_images/nav-bg-arrow.jpg") no-repeat scroll 50% -149px transparent;
+			color: #FFFFFF;
+			display: block;
+			font: bold 14px/58px century gothic;
+			height: 53px;
+			margin: 0 3px;
+			padding: 0;
+			text-decoration: none;
+			text-transform: uppercase;
+			width: 97px;
+		}
+			ul#nav li a:hover {
+				background: url(images/label.png) 0 0 no-repeat;
+				color: #444;
+			}
+			
+			ul#nav li a.js:hover {
+				background: url(../../misr_images/nav-bg-arrow.jpg) 50% -149px no-repeat;
+			}

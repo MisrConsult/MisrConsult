@@ -1,0 +1,32 @@
+		.desc { color:#444;}
+        .desc a {color:#444;}
+        
+        .dropdown dd, .dropdown dt, .dropdown ul { margin:0px; padding:0px; width:150px; background:url(../../misr_images/lang-bg-right.jpg) no-repeat scroll right center;}
+        .dropdown dd { position:relative; }
+        .dropdown a, .dropdown a:visited { color:#444; text-decoration:none; outline:none;}
+        .dropdown a:hover { color:#444;}
+        .dropdown dt a:hover { color:#82b500; }
+        .dropdown dt a {background: url(../../misr_images/lang-bg-left.jpg) no-repeat scroll left center; display:block; padding-left:20px;
+                       width:136px;}
+        .dropdown dt a span {cursor:pointer; display:block; padding:5px; text-align:center}
+        .dropdown dd ul {  
+                          
+						  background: none repeat scroll 0 0 #FFFFFF;
+							border: 1px solid #ABABAB;
+							color: #444;
+							display: none;
+							left: 23px;
+							list-style: none outside none;
+							min-width: 117px;
+							padding: 0;
+							position: absolute;
+							top: 0;
+							width: auto;}
+        .dropdown span.value { display:none;}
+        .dropdown dd ul li a { padding:5px; display:block;}
+        .dropdown dd ul li a:hover { background-color:#82b500; color:#444}
+        
+        .dropdown img.flag {border: medium none;
+    float: right;
+    margin: 3px 35px 0 0;
+    vertical-align: middle; }

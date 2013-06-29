@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+/* v1.0 | 20080212 *//* Horizontal Carousel */
+
+.objImgFrame{
+ 	padding:4px;
+}
+
+.simple_slider_hover{
+	cursor:pointer;
+	cursor:hand
+}
+.simple_slider_disabled {
+    opacity : 0.2;
+    filter: alpha(opacity=20);
+	zoom: 1;
+}
+
+
+#holder {margin-left:10px;}

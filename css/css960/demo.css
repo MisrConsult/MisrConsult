@@ -1,0 +1,93 @@
+body{margin-top:30px;}
+
+
+a {
+  color: #82b500;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+p {
+	font:bold 12px Tahoma, Geneva, sans-serif;
+	color:#585858;
+	overflow: hidden;
+	padding: 10px;
+}
+
+/*social buttons + search*/
+.sb_facebook, .sb_twitter, .sb_gplus, .sb_youtube {background:url(../../misr_images/de_13.jpg) top center no-repeat;
+	width:19px; height:19px; margin:3px;
+	float:right; text-indent:-9999px; overflow:hidden;}
+
+.sb_twitter {background-image:url(../../misr_images/de_17.jpg);}
+.sb_gplus {background-image:url(../../misr_images/de_15.jpg);}
+.sb_youtube {background-image:url(../../misr_images/de_19.jpg); width:47px;}
+
+.searchForm form {float: right; margin-top: 20px; width: 220px;}
+.searchForm #searchButton {
+	background:url(../../misr_images/search-btn.jpg) no-repeat top center; width:26px; height:25px;
+	border:medium none; cursor:pointer; text-indent:-9999px; overflow:hidden; float:left; margin:0 10px;
+	}
+	
+/*Nav Menu*/
+.navMenu {background:url(../../misr_images/nav-bg-right.jpg) no-repeat right center scroll; margin-top:20px;}
+.navMenu ul {background:url(../../misr_images/nav-bg-left.jpg) no-repeat left center scroll;}
+
+/*Content*/
+.featureItem {width:284px; min-height:258px; background:#e8e8e8 url(../../misr_images/f_bg.jpg) bottom center no-repeat scroll; padding-bottom:25px; margin-bottom:20px; }
+.featureItem span {text-align:left; font:bold 18px Tahoma, Geneva, sans-serif; color:#4e4e4e; text-transform:capitalize; line-height:30px; float:left; margin:5px 5px 20px; clear:both; height:32px;}
+.featureItem span img {float:left;}
+.featureItem div.imageWrapper {width:257px; height:61px; margin:0 auto; overflow:hidden; border:1px solid #b5b0b0; }
+.featureItem div.imageWrapper img {width:257px;}
+.featureItem p a {color:#585858; font:bold 12px Tahoma, Geneva, sans-serif; text-align:left; direction:ltr; text-align:justify}
+
+
+/*welcome info and news*/
+.welcomeInfo h1 {font:24px Tahoma, Geneva, sans-serif; text-transform:capitalize; color:#313030; padding:10px;}
+.welcomeInfo h1 span {color:#418826; text-transform:uppercase; }
+
+.newsBar{background:url(../../misr_images/news-title.jpg) top left no-repeat scroll; padding:56px 0 0;}
+.newsDate {background:url(../../misr_images/news-icon.jpg) top center no-repeat scroll; width:43px; height:40px; color:#fff; font:9px Arial, Helvetica, sans-serif; text-transform:uppercase; text-align:center; padding-top:5px; float:left}
+.newsDate span {color:#57660d; font-size:15px; float:left; margin:3px 13px; }
+.newsBar a {float:left; clear:none; width:230px; margin-left:10px;}
+.newsTitle {font:10px Tahoma, Geneva, sans-serif; float:left; clear:both; color:#333}
+.newsInfo {font:10px Tahoma, Geneva, sans-serif; float:left; clear:both; color:#666}
+.newsElem {float:left; margin-bottom:10px;}
+
+.logosWrapper {margin:30px 0;}
+
+.footerWrapper {width:100%; background:#c7c6c6; color:#4e4e4e; text-align:left; padding:15px 0; font-weight:bold}
+
+
+
+/*Inner*/
+.greyBg {background:#e8e8e8 url(../../misr_images/grey-bg.jpg) bottom center no-repeat; padding-bottom:50px; padding-top:10px; margin-bottom:20px;}
+.verticalSep {background:url(../../misr_images/vertical-sep.jpg) repeat-y top right;}
+.innerText p {padding:0 10px; float:left; clear:both; text-align:justify}
+.innerText p img {width:312px; background:url(../../misr_images/img-bg.jpg) bottom center no-repeat; margin:0 10px 10px 0; padding-bottom: 15px; float:left}
+span.textTitle {font:26px "Times New Roman", Times, serif; text-transform:uppercase; color:#5b8a00; padding:0 10px 20px; float:left; clear:both;}
+
+a.innerFeature {float:left; width:148px; height:65; padding:6px; background:url(../../misr_images/imgs-bgs.jpg) top center no-repeat scroll; margin:0 7px 20px 0; text-align:center}
+a.innerFeature img {width:142px; height:59px;}
+
+.verSep20, .verSep40{clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 20px;}
+.verSep40 {height:40px;}
+  
+  
+/*Inner Side Bar*/
+.sideTitle {color:#fff; font:12px Tahoma, Geneva, sans-serif; line-height:34px; width:169px; padding:0 0 0 20px; height:34px; background:url(../../misr_images/side-title-bg.jpg) top center no-repeat scroll; float:left;}
+.sideBar a {float:left; font:bold 12px Tahoma, Geneva, sans-serif; color:#737373; clear:both; padding:7px;}
+.sideBar a:hover {color:#82b500;}
+.sideBar a span.projTitle {font:14px "Times New Roman", Times, serif; text-transform:uppercase; color:#5b8a00; padding-bottom: 10px; float:left; clear:both; width:100%;}
+.sideBar a img {float:left; width:75px; border:1px solid #817f7f; clear:right; height:56px; margin: 0 10px 10px 0;}
+.sideBar a span.projText {float:left; clear:none}
